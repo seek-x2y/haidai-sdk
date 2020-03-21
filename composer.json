@@ -1,0 +1,22 @@
+{
+    "name": "seek-x2y/haidai-sdk",
+    "description": "海带供应链SDK",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wmc",
+            "email": "php_wmc@sina.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "hanson/foundation-sdk": "^3.0",
+        "ext-json": "*",
+        "ext-iconv": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Seek\\HaidaiSDK\\": "src"
+        }
+    }
+}
